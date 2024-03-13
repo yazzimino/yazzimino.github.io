@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('schriften/Quicksand-VariableFont_wght.woff') format('woff');
+    font-weight: bold;
+  }
+
+body{
+    background-color: #b3cece;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+
+/*Naviation bar*/
+
+a, li, ul {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.menu > ul {
+    margin-left: 2%;
+    padding-left: 2px;
+    font-size: 12px;
+    position: relative;
+    background-color: #b3cece;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu > ul > li{
+    display: inline-block;
+}
+
+
+.main {
+    z-index: 1;
+    margin-top: 10px;
+    background-color: #b3cece;
+}
+
+.right {
+    margin-right: 2%;
+    font-size: 12px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right :hover {
+    transition: ease-in .07s;
+    color: white;
+}
+
+.main > li {
+    padding-right: 10px;
+}
+
+
+.right {
+    text-align: right;
+}
+
+.sub {
+    display: none;
+    position:absolute;
+    z-index: -1;
+    transition: ease-in .07s;
+}
+
+.sub a {
+    display: block;
+    padding: 3px;
+    font-size: 10px;
+}
+
+.main :hover {
+    transition: ease-in .07s;
+    color: white;
+}
+
+.menu:hover .sub {
+    display: block;
+    padding-left: 0px;
+    margin-left: 0px;
+    opacity: 1;
+    background-color:  #b3cece;
+    width: 150px;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #b3cece;
+}
+
+.sub li:first-child {
+    padding-top: 20px;
+    z-index: -1;
+}
+
+.sub li:first-child :hover {
+    z-index: -1;
+}
+
+/*middle page*/
+
+h1,h2{
+    margin-left: 2%;
+}
+
+h1{
+    margin-top: 18%;
+    margin-bottom: 05px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h2 {
+    color: 	white;
+    margin-top: 05px;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+/*Impressum*/
+
+.boden {
+    background-color: #b3cece;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.icon {
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.zsm {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.zsm > a {
+    padding-right: 10px;
+}
+
+.zsm  :hover {
+    transition: ease-in .07s;
+    color: white;
+}
+

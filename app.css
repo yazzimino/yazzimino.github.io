@@ -20,6 +20,7 @@ body{
     background-color: white;
 }
 
+
 /*Naviation bar*/
 
 a, li, ul {
@@ -149,16 +150,15 @@ h2 {
     margin-right: 2% ;
 }
 
-.drunter {
-    font-size: 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 
+.slideshow {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
 }
 
-.text {
-    width: 119.6px;
+.slideshow > p {
+    margin-top: 5px;
     text-align: center;
 }
 
@@ -371,7 +371,6 @@ h2 {
     transition: ease-in .07s;
     color: white;
 }
-
 
 
 

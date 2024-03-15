@@ -1,18 +1,5 @@
-@font-face {
-    font-family: 'Quicksand';
-    src: url('schriften/Quicksand-VariableFont_wght.woff') format('woff');
-    font-weight: bold;
-  }
-
-body{
-    height: 100%;
-    font-family: sans-serif;
-    margin: 0px;
-}
-
 .white {
     background-color: #b3cece;
-    padding-top: 10px;
 }
 
 
@@ -160,6 +147,8 @@ a, li, ul {
 
 .ich img {
     margin-top: 50px;
+    width: 300px;
+    height: fit-content;
 }
 
 /*Impressum*/

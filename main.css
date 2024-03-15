@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("schriften/Quicksand-VariableFont_wght.woff") format("woff");
+  font-weight: bold;
+}
+
+
+.white, .blue html, body {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+.white, .blue {
+  max-width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-between;
+}
+

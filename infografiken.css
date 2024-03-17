@@ -13,6 +13,7 @@ body{
 .white {
     background-color: #b3cece;
     padding-top: 10px;
+    height: auto;
 }
 
 
@@ -142,6 +143,7 @@ a, li, ul {
     margin-left: 2%;
     margin-right: 2%;
     padding-bottom: 30px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -159,6 +161,12 @@ a, li, ul {
 }
 
 /*in debth*/
+
+.inDepth {
+    background-color: white;
+    margin-top: 50px;
+    width: 1200px;
+}
 
 .zs {
     margin-left: 2%;

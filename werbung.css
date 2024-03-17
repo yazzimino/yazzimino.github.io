@@ -13,6 +13,7 @@ body{
 .white {
     background-color: #b3cece;
     padding-top: 10px;
+    height:auto;
 }
 
 
@@ -195,6 +196,7 @@ a, li, ul {
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .o:first-child {

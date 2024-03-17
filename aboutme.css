@@ -129,12 +129,12 @@ a, li, ul {
     padding-bottom: 30px;
 }
 
+
 .untereinander p {
     display: flex;
     align-content: flex-end;
     font-size: 12px;
     padding-right: 40px;
-    
     margin-bottom: 170px;
 }
 
